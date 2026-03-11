@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-⚠️ This project is not mainted anymore, please use the updated repo at 
+ This project is not mainted anymore, please use the updated repo at 
 https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2 
 </p>
 
@@ -25,43 +25,43 @@ _____
 
 Read more about channels point [here](https://help.twitch.tv/s/article/channel-points-guide)
 
-## 📢 Help wanted
+##  Help wanted
 Currently, we have a lot of PRs requests opened, but the time to test and improve It's less and less. If you want to help the community and the project, please test the following PRs and give us feedback:
 - [Add SMART_HIGH_ODDS strategy #172](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/pull/172)
 - [Add support for arbitrary filter functions #336](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/pull/336)
 
 # README Contents
-1. 🤝 [Community](#community)
-2. 🚀 [Main differences from the original repository](#main-differences-from-the-original-repository)
-3. 🧾 [Logs feature](#logs-feature)
+1.  [Community](#community)
+2.  [Main differences from the original repository](#main-differences-from-the-original-repository)
+3.  [Logs feature](#logs-feature)
     - [Full logs](#full-logs)
     - [Less logs](#less-logs)
     - [Final report](#final-report)
-4. 🧐 [How to use](#how-to-use)
+4.  [How to use](#how-to-use)
     - [Cloning](#by-cloning-the-repository)
     - [pip](#pip)
     - [Docker](#docker)
     - [Limits](#limits)
-5. 🔧 [Settings](#settings)
+5.  [Settings](#settings)
     - [LoggerSettings](#loggersettings)
     - [StreamerSettings](#streamersettings)
     - [BetSettings](#betsettings)
         - [Bet strategy](#bet-strategy)
     - [FilterCondition](#filtercondition)
         - [Example](#example)
-6. 📈 [Analytics](#analytics)
-7. 🍪 [Migrating from an old repository (the original one)](#migrating-from-an-old-repository-the-original-one)
-8. 🪟 [Windows](#windows)
-9. 📱 [Termux](#termux)
-10. ⚠️ [Disclaimer](#disclaimer)
+6.  [Analytics](#analytics)
+7.  [Migrating from an old repository (the original one)](#migrating-from-an-old-repository-the-original-one)
+8.  [Windows](#windows)
+9.  [Termux](#termux)
+10.  [Disclaimer](#disclaimer)
 
 
 ## Community
-If you have any type of issue, need help, or want to suggest a new feature, please open a GitHub Issue. Don't reach me on [Instagram](https://www.instagram.com/tkd_alex/), [Telegram](https://t.me/TkdAlex), [Discord](https://discordapp.com/users/641397388132483121), [Twitter](https://twitter.com/TkdAxel) (but you can follow me 😆), or somewhere else. If you don't have an account on this platform, you can create it. It's free. I do not want to be rude, but if you have a problem, maybe another user can also have the same problem, and your issue can help the community. Same for the new feature, your idea can help other users, and It's beautiful to discuss between us.
+If you have any type of issue, need help, or want to suggest a new feature, please open a GitHub Issue. Don't reach me on [Instagram](https://www.instagram.com/tkd_alex/), [Telegram](https://t.me/TkdAlex), [Discord](https://discordapp.com/users/641397388132483121), [Twitter](https://twitter.com/TkdAxel) (but you can follow me ), or somewhere else. If you don't have an account on this platform, you can create it. It's free. I do not want to be rude, but if you have a problem, maybe another user can also have the same problem, and your issue can help the community. Same for the new feature, your idea can help other users, and It's beautiful to discuss between us.
 
-If you want to help with this project, please leave a star 🌟 and share it with your friends! 😎
+If you want to help with this project, please leave a star  and share it with your friends! 
 
-If you want to offer me a coffee, I would be grateful ❤️
+If you want to offer me a coffee, I would be grateful 
 
 <a href="https://www.buymeacoffee.com/tkdalex" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
@@ -81,7 +81,7 @@ If you have any issues or you want to contribute, you are welcome! But please be
 - Automatic download the follower's list and use it as input
 - Better 'Watch Streak' strategy in priority system [#11](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/issues/11)
 - Auto claim game drops from Twitch inventory [#21](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/issues/21) Read more about game drops [here](https://help.twitch.tv/s/article/mission-based-drops)
-- Place the bet / make a prediction and win or lose (🍀) your channel points!
+- Place the bet / make a prediction and win or lose () your channel points!
 No browser needed. [#41](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/issues/41) ([@lay295](https://github.com/lay295))
 - Analytics chart that show the progress of your points with various annotations [#96](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/issues/96)
 - Join IRC Chat for increase watch-time and get StreamElements points [#47](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2/issues/47)
@@ -89,98 +89,98 @@ No browser needed. [#41](https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner
 ## Logs feature
 ### Full logs
 ```
-%d/%m/%y %H:%M:%S - INFO - [run]: 💣  Start session: '9eb934b0-1684-4a62-b3e2-ba097bd67d35'
-%d/%m/%y %H:%M:%S - INFO - [run]: 🤓  Loading data for x streamers. Please wait ...
-%d/%m/%y %H:%M:%S - INFO - [set_offline]: 😴  Streamer(username=streamer-username1, channel_id=0000000, channel_points=67247) is Offline!
-%d/%m/%y %H:%M:%S - INFO - [set_offline]: 😴  Streamer(username=streamer-username2, channel_id=0000000, channel_points=4240) is Offline!
-%d/%m/%y %H:%M:%S - INFO - [set_offline]: 😴  Streamer(username=streamer-username3, channel_id=0000000, channel_points=61365) is Offline!
-%d/%m/%y %H:%M:%S - INFO - [set_offline]: 😴  Streamer(username=streamer-username4, channel_id=0000000, channel_points=3760) is Offline!
-%d/%m/%y %H:%M:%S - INFO - [set_online]: 🥳  Streamer(username=streamer-username, channel_id=0000000, channel_points=61365) is Online!
-%d/%m/%y %H:%M:%S - INFO - [start_bet]: 🔧  Start betting for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo) owned by Streamer(username=streamer-username, channel_id=0000000, channel_points=61365)
-%d/%m/%y %H:%M:%S - INFO - [__open_coins_menu]: 🔧  Open coins menu for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo)
-%d/%m/%y %H:%M:%S - INFO - [__click_on_bet]: 🔧  Click on the bet for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo)
-%d/%m/%y %H:%M:%S - INFO - [__enable_custom_bet_value]: 🔧  Enable input of custom value for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo)
-%d/%m/%y %H:%M:%S - INFO - [on_message]: ⏰  Place the bet after: 89.99s for: EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx-15c61914ef69, title=Please star this repo)
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=61377) - Reason: WATCH.
-%d/%m/%y %H:%M:%S - INFO - [make_predictions]: 🍀  Going to complete bet for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx-15c61914ef69, title=Please star this repo) owned by Streamer(username=streamer-username, channel_id=0000000, channel_points=61377)
-%d/%m/%y %H:%M:%S - INFO - [make_predictions]: 🍀  Place 5k channel points on: SI (BLUE), Points: 848k, Users: 190 (70.63%), Odds: 1.24 (80.65%)
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +6675 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64206) - Reason: PREDICTION.
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 📊  EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo) - Result: WIN, Points won: 6675
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64218) - Reason: WATCH.
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64230) - Reason: WATCH.
-%d/%m/%y %H:%M:%S - INFO - [claim_bonus]: 🎁  Claiming the bonus for Streamer(username=streamer-username, channel_id=0000000, channel_points=64230)!
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +60 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64290) - Reason: CLAIM.
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64326) - Reason: WATCH.
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +400 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64326) - Reason: WATCH_STREAK.
-%d/%m/%y %H:%M:%S - INFO - [claim_bonus]: 🎁  Claiming the bonus for Streamer(username=streamer-username, channel_id=0000000, channel_points=64326)!
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +60 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64386) - Reason: CLAIM.
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64398) - Reason: WATCH.
-%d/%m/%y %H:%M:%S - INFO - [update_raid]: 🎭  Joining raid from Streamer(username=streamer-username, channel_id=0000000, channel_points=64398) to another-username!
-%d/%m/%y %H:%M:%S - INFO - [on_message]: 🚀  +250 → Streamer(username=streamer-username, channel_id=0000000, channel_points=6845) - Reason: RAID.
+%d/%m/%y %H:%M:%S - INFO - [run]:   Start session: '9eb934b0-1684-4a62-b3e2-ba097bd67d35'
+%d/%m/%y %H:%M:%S - INFO - [run]:   Loading data for x streamers. Please wait ...
+%d/%m/%y %H:%M:%S - INFO - [set_offline]:   Streamer(username=streamer-username1, channel_id=0000000, channel_points=67247) is Offline!
+%d/%m/%y %H:%M:%S - INFO - [set_offline]:   Streamer(username=streamer-username2, channel_id=0000000, channel_points=4240) is Offline!
+%d/%m/%y %H:%M:%S - INFO - [set_offline]:   Streamer(username=streamer-username3, channel_id=0000000, channel_points=61365) is Offline!
+%d/%m/%y %H:%M:%S - INFO - [set_offline]:   Streamer(username=streamer-username4, channel_id=0000000, channel_points=3760) is Offline!
+%d/%m/%y %H:%M:%S - INFO - [set_online]:   Streamer(username=streamer-username, channel_id=0000000, channel_points=61365) is Online!
+%d/%m/%y %H:%M:%S - INFO - [start_bet]:   Start betting for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo) owned by Streamer(username=streamer-username, channel_id=0000000, channel_points=61365)
+%d/%m/%y %H:%M:%S - INFO - [__open_coins_menu]:   Open coins menu for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo)
+%d/%m/%y %H:%M:%S - INFO - [__click_on_bet]:   Click on the bet for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo)
+%d/%m/%y %H:%M:%S - INFO - [__enable_custom_bet_value]:   Enable input of custom value for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo)
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   Place the bet after: 89.99s for: EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx-15c61914ef69, title=Please star this repo)
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=61377) - Reason: WATCH.
+%d/%m/%y %H:%M:%S - INFO - [make_predictions]:   Going to complete bet for EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx-15c61914ef69, title=Please star this repo) owned by Streamer(username=streamer-username, channel_id=0000000, channel_points=61377)
+%d/%m/%y %H:%M:%S - INFO - [make_predictions]:   Place 5k channel points on: SI (BLUE), Points: 848k, Users: 190 (70.63%), Odds: 1.24 (80.65%)
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +6675 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64206) - Reason: PREDICTION.
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title=Please star this repo) - Result: WIN, Points won: 6675
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64218) - Reason: WATCH.
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64230) - Reason: WATCH.
+%d/%m/%y %H:%M:%S - INFO - [claim_bonus]:   Claiming the bonus for Streamer(username=streamer-username, channel_id=0000000, channel_points=64230)!
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +60 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64290) - Reason: CLAIM.
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64326) - Reason: WATCH.
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +400 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64326) - Reason: WATCH_STREAK.
+%d/%m/%y %H:%M:%S - INFO - [claim_bonus]:   Claiming the bonus for Streamer(username=streamer-username, channel_id=0000000, channel_points=64326)!
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +60 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64386) - Reason: CLAIM.
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +12 → Streamer(username=streamer-username, channel_id=0000000, channel_points=64398) - Reason: WATCH.
+%d/%m/%y %H:%M:%S - INFO - [update_raid]:   Joining raid from Streamer(username=streamer-username, channel_id=0000000, channel_points=64398) to another-username!
+%d/%m/%y %H:%M:%S - INFO - [on_message]:   +250 → Streamer(username=streamer-username, channel_id=0000000, channel_points=6845) - Reason: RAID.
 ```
 ### Less logs
 ```
-%d/%m %H:%M:%S - 💣  Start session: '9eb934b0-1684-4a62-b3e2-ba097bd67d35'
-%d/%m %H:%M:%S - 🤓  Loading data for 13 streamers. Please wait ...
-%d/%m %H:%M:%S - 😴  streamer-username1 (xxx points) is Offline!
-%d/%m %H:%M:%S - 😴  streamer-username2 (xxx points) is Offline!
-%d/%m %H:%M:%S - 😴  streamer-username3 (xxx points) is Offline!
-%d/%m %H:%M:%S - 😴  streamer-username4 (xxx points) is Offline!
-%d/%m %H:%M:%S - 🥳  streamer-username (xxx points) is Online!
-%d/%m %H:%M:%S - 🔧  Start betting for EventPrediction: Please star this repo owned by streamer-username (xxx points)
-%d/%m %H:%M:%S - 🔧  Open coins menu for EventPrediction: Please star this repo
-%d/%m %H:%M:%S - 🔧  Click on the bet for EventPrediction: Please star this repo
-%d/%m %H:%M:%S - 🔧  Enable input of custom value for EventPrediction: Please star this repo
-%d/%m %H:%M:%S - ⏰  Place the bet after: 89.99s EventPrediction: Please star this repo
-%d/%m %H:%M:%S - 🚀  +12 → streamer-username (xxx points) - Reason: WATCH.
-%d/%m %H:%M:%S - 🍀  Going to complete bet for EventPrediction: Please star this repo owned by streamer-username (xxx points)
-%d/%m %H:%M:%S - 🍀  Place 5k channel points on: SI (BLUE), Points: 848k, Users: 190 (70.63%), Odds: 1.24 (80.65%)
-%d/%m %H:%M:%S - 🚀  +6675 → streamer-username (xxx points) - Reason: PREDICTION.
-%d/%m %H:%M:%S - 📊  EventPrediction: Please star this repo - Result: WIN, Points won: 6675
-%d/%m %H:%M:%S - 🚀  +12 → streamer-username (xxx points) - Reason: WATCH.
-%d/%m %H:%M:%S - 🚀  +12 → streamer-username (xxx points) - Reason: WATCH.
-%d/%m %H:%M:%S - 🚀  +60 → streamer-username (xxx points) - Reason: CLAIM.
-%d/%m %H:%M:%S - 🚀  +12 → streamer-username (xxx points) - Reason: WATCH.
-%d/%m %H:%M:%S - 🚀  +400 → streamer-username (xxx points) - Reason: WATCH_STREAK.
-%d/%m %H:%M:%S - 🚀  +60 → streamer-username (xxx points) - Reason: CLAIM.
-%d/%m %H:%M:%S - 🚀  +12 → streamer-username (xxx points) - Reason: WATCH.
-%d/%m %H:%M:%S - 🎭  Joining raid from streamer-username (xxx points) to another-username!
-%d/%m %H:%M:%S - 🚀  +250 → streamer-username (xxx points) - Reason: RAID.
+%d/%m %H:%M:%S -   Start session: '9eb934b0-1684-4a62-b3e2-ba097bd67d35'
+%d/%m %H:%M:%S -   Loading data for 13 streamers. Please wait ...
+%d/%m %H:%M:%S -   streamer-username1 (xxx points) is Offline!
+%d/%m %H:%M:%S -   streamer-username2 (xxx points) is Offline!
+%d/%m %H:%M:%S -   streamer-username3 (xxx points) is Offline!
+%d/%m %H:%M:%S -   streamer-username4 (xxx points) is Offline!
+%d/%m %H:%M:%S -   streamer-username (xxx points) is Online!
+%d/%m %H:%M:%S -   Start betting for EventPrediction: Please star this repo owned by streamer-username (xxx points)
+%d/%m %H:%M:%S -   Open coins menu for EventPrediction: Please star this repo
+%d/%m %H:%M:%S -   Click on the bet for EventPrediction: Please star this repo
+%d/%m %H:%M:%S -   Enable input of custom value for EventPrediction: Please star this repo
+%d/%m %H:%M:%S -   Place the bet after: 89.99s EventPrediction: Please star this repo
+%d/%m %H:%M:%S -   +12 → streamer-username (xxx points) - Reason: WATCH.
+%d/%m %H:%M:%S -   Going to complete bet for EventPrediction: Please star this repo owned by streamer-username (xxx points)
+%d/%m %H:%M:%S -   Place 5k channel points on: SI (BLUE), Points: 848k, Users: 190 (70.63%), Odds: 1.24 (80.65%)
+%d/%m %H:%M:%S -   +6675 → streamer-username (xxx points) - Reason: PREDICTION.
+%d/%m %H:%M:%S -   EventPrediction: Please star this repo - Result: WIN, Points won: 6675
+%d/%m %H:%M:%S -   +12 → streamer-username (xxx points) - Reason: WATCH.
+%d/%m %H:%M:%S -   +12 → streamer-username (xxx points) - Reason: WATCH.
+%d/%m %H:%M:%S -   +60 → streamer-username (xxx points) - Reason: CLAIM.
+%d/%m %H:%M:%S -   +12 → streamer-username (xxx points) - Reason: WATCH.
+%d/%m %H:%M:%S -   +400 → streamer-username (xxx points) - Reason: WATCH_STREAK.
+%d/%m %H:%M:%S -   +60 → streamer-username (xxx points) - Reason: CLAIM.
+%d/%m %H:%M:%S -   +12 → streamer-username (xxx points) - Reason: WATCH.
+%d/%m %H:%M:%S -   Joining raid from streamer-username (xxx points) to another-username!
+%d/%m %H:%M:%S -   +250 → streamer-username (xxx points) - Reason: RAID.
 ```
 ### Final report:
 ```
-%d/%m/%y %H:%M:%S - 🛑  End session 'f738d438-cdbc-4cd5-90c4-1517576f1299'
-%d/%m/%y %H:%M:%S - 📄  Logs file: /.../path/Twitch-Channel-Points-Miner-v2/logs/username.timestamp.log
-%d/%m/%y %H:%M:%S - ⌛  Duration 10:29:19.547371
+%d/%m/%y %H:%M:%S -   End session 'f738d438-cdbc-4cd5-90c4-1517576f1299'
+%d/%m/%y %H:%M:%S -   Logs file: /.../path/Twitch-Channel-Points-Miner-v2/logs/username.timestamp.log
+%d/%m/%y %H:%M:%S -   Duration 10:29:19.547371
 
-%d/%m/%y %H:%M:%S - 📊  BetSettings(Strategy=Strategy.SMART, Percentage=7, PercentageGap=20, MaxPoints=7500
-%d/%m/%y %H:%M:%S - 📊  EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title="Event Title1")
+%d/%m/%y %H:%M:%S -   BetSettings(Strategy=Strategy.SMART, Percentage=7, PercentageGap=20, MaxPoints=7500
+%d/%m/%y %H:%M:%S -   EventPrediction(event_id=xxxx-xxxx-xxxx-xxxx, title="Event Title1")
 		Streamer(username=streamer-username, channel_id=0000000, channel_points=67247)
 		Bet(TotalUsers=1k, TotalPoints=11M), Decision={'choice': 'B', 'amount': 5289, 'id': 'xxxx-yyyy-zzzz'})
 		Outcome0(YES (BLUE) Points: 7M, Users: 641 (58.49%), Odds: 1.6, (5}%)
 		Outcome1(NO (PINK),Points: 4M, Users: 455 (41.51%), Odds: 2.65 (37.74%))
 		Result: {'type': 'LOSE', 'won': 0}
-%d/%m/%y %H:%M:%S - 📊  EventPrediction(event_id=yyyy-yyyy-yyyy-yyyy, title="Event Title2")
+%d/%m/%y %H:%M:%S -   EventPrediction(event_id=yyyy-yyyy-yyyy-yyyy, title="Event Title2")
 		Streamer(username=streamer-username, channel_id=0000000, channel_points=3453464)
 		Bet(TotalUsers=921, TotalPoints=11M), Decision={'choice': 'A', 'amount': 4926, 'id': 'xxxx-yyyy-zzzz'})
 		Outcome0(YES (BLUE) Points: 9M, Users: 562 (61.02%), Odds: 1.31 (76.34%))
 		Outcome1(YES (PINK) Points: 3M, Users: 359 (38.98%), Odds: 4.21 (23.75%))
 		Result: {'type': 'WIN', 'won': 6531}
-%d/%m/%y %H:%M:%S - 📊  EventPrediction(event_id=ad152117-251b-4666-b683-18e5390e56c3, title="Event Title3")
+%d/%m/%y %H:%M:%S -   EventPrediction(event_id=ad152117-251b-4666-b683-18e5390e56c3, title="Event Title3")
 		Streamer(username=streamer-username, channel_id=0000000, channel_points=45645645)
 		Bet(TotalUsers=260, TotalPoints=3M), Decision={'choice': 'A', 'amount': 5054, 'id': 'xxxx-yyyy-zzzz'})
 		Outcome0(YES (BLUE) Points: 689k, Users: 114 (43.85%), Odds: 4.24 (23.58%))
 		Outcome1(NO (PINK) Points: 2M, Users: 146 (56.15%), Odds: 1.31 (76.34%))
 		Result: {'type': 'LOSE', 'won': 0}
 
-%d/%m/%y %H:%M:%S - 🤖  Streamer(username=streamer-username, channel_id=0000000, channel_points=67247), Total points gained (after farming - before farming): -7838
-%d/%m/%y %H:%M:%S - 💰  CLAIM(11 times, 550 gained), PREDICTION(1 times, 6531 gained), WATCH(35 times, 350 gained)
-%d/%m/%y %H:%M:%S - 🤖  Streamer(username=streamer-username2, channel_id=0000000, channel_points=61365), Total points gained (after farming - before farming): 977
-%d/%m/%y %H:%M:%S - 💰  CLAIM(4 times, 240 gained), REFUND(1 times, 605 gained), WATCH(11 times, 132 gained)
-%d/%m/%y %H:%M:%S - 🤖  Streamer(username=streamer-username5, channel_id=0000000, channel_points=25960), Total points gained (after farming - before farming): 1680
-%d/%m/%y %H:%M:%S - 💰  CLAIM(17 times, 850 gained), WATCH(53 times, 530 gained)
-%d/%m/%y %H:%M:%S - 🤖  Streamer(username=streamer-username6, channel_id=0000000, channel_points=9430), Total points gained (after farming - before farming): 1120
-%d/%m/%y %H:%M:%S - 💰  CLAIM(14 times, 700 gained), WATCH(42 times, 420 gained), WATCH_STREAK(1 times, 450 gained)
+%d/%m/%y %H:%M:%S -   Streamer(username=streamer-username, channel_id=0000000, channel_points=67247), Total points gained (after farming - before farming): -7838
+%d/%m/%y %H:%M:%S -   CLAIM(11 times, 550 gained), PREDICTION(1 times, 6531 gained), WATCH(35 times, 350 gained)
+%d/%m/%y %H:%M:%S -   Streamer(username=streamer-username2, channel_id=0000000, channel_points=61365), Total points gained (after farming - before farming): 977
+%d/%m/%y %H:%M:%S -   CLAIM(4 times, 240 gained), REFUND(1 times, 605 gained), WATCH(11 times, 132 gained)
+%d/%m/%y %H:%M:%S -   Streamer(username=streamer-username5, channel_id=0000000, channel_points=25960), Total points gained (after farming - before farming): 1680
+%d/%m/%y %H:%M:%S -   CLAIM(17 times, 850 gained), WATCH(53 times, 530 gained)
+%d/%m/%y %H:%M:%S -   Streamer(username=streamer-username6, channel_id=0000000, channel_points=9430), Total points gained (after farming - before farming): 1120
+%d/%m/%y %H:%M:%S -   CLAIM(14 times, 700 gained), WATCH(42 times, 420 gained), WATCH_STREAK(1 times, 450 gained)
 ```
 
 ## How to use:
@@ -307,12 +307,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Start mining! `python run.py` 🥳
+Start mining! `python run.py` 
 
 ### pip
 Install the package via pip, you will find a stable version - maybe a different version from the master branch.
 - `pip install Twitch-Channel-Points-Miner-v2`
-- Exceute the run.py file `python run.py` 🥳
+- Exceute the run.py file `python run.py` 
 
 ### Docker
 
